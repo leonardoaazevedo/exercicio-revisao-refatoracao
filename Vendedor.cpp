@@ -9,8 +9,8 @@
    }
 
  double Vendedor::quotaTotalAnual(){
-	   double quotaFinal = this->quotaMensalVendas * meses_ano ;
-	   return quotaFinal;
+     double quotaFinal = this->quotaMensalVendas * meses_ano ;
+     return quotaFinal;
  }
 
  void Vendedor::printInfo ()  {
