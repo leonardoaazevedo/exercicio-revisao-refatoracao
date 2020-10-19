@@ -9,7 +9,7 @@ class Vendedor : public Empregado {
 
   public:
     Vendedor (std::string _nome, double _salarioHora, double _horasTrabalhadas, int _quotaMensalVendas);	
-	  double quotaTotalAnual();
+    double quotaTotalAnual();
     void printInfo () override ;
     ~Vendedor(){};
 };
